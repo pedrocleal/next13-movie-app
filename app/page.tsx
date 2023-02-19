@@ -28,7 +28,7 @@ export default async function Home() {
         <h2>Popular movies.</h2>
       </div>
       <div className="grid gap-8 grid-cols-fluid justify-center py-8 place-items-center">
-        {res.results.map((movie: any) => (
+        {res?.results?.map((movie: any) => (
           <MovieCard
             key={movie.id}
             id={movie.id}
