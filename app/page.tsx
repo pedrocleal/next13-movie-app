@@ -22,7 +22,7 @@ export default async function Home() {
   const res = await data.json();
 
   return (
-    <main className="p-8">
+    <main className="p-4">
       <div className="flex items-center justify-between mt-8">
         <h1 className="text-3xl font-semibold uppercase text-cyan-500">Movie List</h1>
         <h2>Popular movies.</h2>
